@@ -16,7 +16,7 @@ const MONGODB = {
   // MONGODB_URI:
   //   "mongodb+srv://shola:SJngUWZtgvJb1WcV@cluster0.zpijeny.mongodb.net/",
   // // MONGODB_URI: `mongodb://${DB_USER}:${DB_PASSWORD}@ds<SOME_DOMAIN>.mlab.com:<PORT>/<PROJECT_NAME>`,
-  MONGODB_URI: `mongodb+srv://audaxious:GwRTH3cGpCtE7X9Z@cluster0.jj7jufa.mongodb.net/?retryWrites=true&w=majority`,
+  MONGODB_URI: `mongodb+srv://audaxious:GwRTH3cGpCtE7X9Z@cluster0.jj7jufa.mongodb.net/Twitter?retryWrites=true&w=majority`,
 };
 
 const SESSION = {
