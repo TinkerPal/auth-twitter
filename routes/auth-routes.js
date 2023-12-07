@@ -2,10 +2,6 @@ const router = require("express").Router();
 const passport = require("passport");
 const CLIENT_HOME_PAGE_URL = "https://www.audaxious.com/";
 
-// https://stackoverflow.com/questions/72375564/typeerror-req-session-regenerate-is-not-a-function-using-passport
-
-// fix to error
-
 // when login is successful, retrieve user info
 router.get("/login/success", (req, res) => {
   if (req.user) {
